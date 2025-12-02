@@ -300,5 +300,5 @@ if __name__ == "__main__":
 
     # Evaluate 10 episodes
     # NOTE:From the documentation, an episode is considered a solution if it scores at least 200 points.
-    avg_reward = evaluate_agent(env_name, trained_agent, episodes=10)
-    print(f"Average reward over 100 episodes: {avg_reward:.1f}")
+    avg_reward = evaluate_agent(env_name, trained_agent, episodes=20)
+    print(f"Average reward over 20 episodes: {avg_reward:.1f}")
